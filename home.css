@@ -1,0 +1,56 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coupen-card{
+    background: linear-gradient(135deg,#715,pink);
+    color:#fff;
+    text-align: center;
+    border-radius: 15px;
+    padding:40px 80px;
+}
+
+.logo{
+    margin-bottom:20px;
+    width:80px;
+    border-radius: 8px;
+}
+
+.coupen-card h3{
+    line-height:40px;
+    font-weight:400;
+    font-size:27px;
+}
+
+.coupen-row{
+    display: flex;
+    align-items: center;
+    margin:25px;
+    width:fit-content;
+}
+
+#cpnCode{
+    padding:10px 20px;
+    border-right: 0;
+    border:2px dotted #fff;
+
+}
+
+#cpnButton{
+    background: #fff;
+    padding: 10px 20px;
+    border:2px solid #fff;
+    color: #712334;
+    cursor:pointer;
+}
